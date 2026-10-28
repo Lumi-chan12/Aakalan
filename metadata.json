@@ -1,0 +1,6 @@
+{
+  "name": "Aakalan — AICTE Approval & Compliance Intelligence Platform",
+  "description": "Smart India Hackathon prototype for digitised AICTE approval workflows, scrutiny, EVC scheduling, compliance monitoring, pendency analytics, and role-based portals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

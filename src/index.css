@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aubergine: #321B35;
+  --color-aubergine-dark: #241326;
+  --color-aubergine-light: #46264A;
+  --color-aubergine-muted: #5C3861;
+  --color-ice: #E9EAEE;
+  --color-ice-light: #F5F6F9;
+  --color-marigold: #F2B544;
+  --color-marigold-hover: #E5A734;
+  --color-marigold-subtle: #FFF8EB;
+  --color-marigold-border: #F7D488;
+  --color-porcelain: #FFFFFF;
+  --color-text-primary: #27232C;
+  --color-text-muted: #77727E;
+  --color-border-subtle: #D9D8DE;
+  --color-status-success: #27845A;
+  --color-status-warning: #C58A16;
+  --color-status-error: #C44949;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #E9EAEE;
+  color: #27232C;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for data tables and panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E9EAEE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C8C7CE;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A5A2AD;
+}
